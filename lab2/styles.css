@@ -1,0 +1,85 @@
+.squares {
+  display: flex;
+}
+
+.square-position {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: relative;
+}
+
+.small-square {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}
+
+.pos-1 {
+  top: 0;
+}
+
+.pos-2 {
+  top: 50px;
+}
+
+.pos-3 {
+  bottom: 50px;
+}
+
+.pos-4 {
+  right: 50px;
+}
+
+.pos-5 {
+  left: 50px;
+}
+
+.square-transform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.transform-small-square-1 {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}
+
+.transform-small-square-2 {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  transform: translate(50px, 0px);
+}
+
+.transform-small-square-3 {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  transform: translate(0px, 0px);
+}
+
+.transform-small-square-4 {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  transform: translate(-50px, -100px);
+}
+
+.transform-small-square-5 {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  transform: translate(0px, -200px);
+}

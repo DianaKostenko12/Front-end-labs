@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Костенко Д.С.</title>
+
+    <style type="text/css">
+      table {
+        border-collapse: collapse;
+        width: 40%;
+        table-layout: fixed;
+      }
+
+      td,
+      th {
+        border: 2px solid black;
+        padding: 5px;
+        text-align: center;
+      }
+
+      td {
+        height: 30px;
+      }
+
+      tbody tr:nth-child(1) {
+        background-color: #278f8f;
+      }
+
+      tbody tr:nth-child(1):hover {
+        color: #ffffff;
+        background: #f08a60;
+      }
+
+      tbody tr:nth-child(2) {
+        background-color: #f5f527;
+      }
+
+      tbody tr:nth-child(2):hover {
+        color: #ffffff;
+        background: #a660f0;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="2">
+      <tr>
+        <td rowspan="3" сolspan="2">Костенко</td>
+        <td>Діана</td>
+        <td сolspan="2" rowspan="3">Сергіївна</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>ІК-21</td>
+        <td>Лр2 Варіант2</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="2"></td>
+        <td></td>
+      </tr>
+    </table>
+
+    <div class="squares">
+      <div class="square-position">
+        <div class="small-square">
+          <div class="small-square pos-1"></div>
+          <div class="small-square pos-2"></div>
+          <div class="small-square pos-3"></div>
+          <div class="small-square pos-4"></div>
+          <div class="small-square pos-5"></div>
+        </div>
+      </div>
+
+      <div class="square-transform">
+        <div class="transform-small-square-1">
+          <div class="transform-small-square-2"></div>
+          <div class="transform-small-square-3"></div>
+          <div class="transform-small-square-4"></div>
+          <div class="transform-small-square-5"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
