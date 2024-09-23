@@ -9,35 +9,45 @@
   margin: 10px;
   width: 200px;
   height: 200px;
-  background-color: red;
+  background-color: rgb(181, 31, 31);
   position: relative;
 }
 
 .small-square {
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background-color: white;
 }
 
 .pos-1 {
   top: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .pos-2 {
-  top: 50px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  top: 40px;
 }
 
 .pos-3 {
-  bottom: 50px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  bottom: 40px;
 }
 
 .pos-4 {
-  right: 50px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  right: 40px;
 }
 
 .pos-5 {
-  left: 50px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  left: 40px;
 }
 
 .square-transform {
@@ -47,39 +57,47 @@
   margin: 10px;
   width: 200px;
   height: 200px;
-  background-color: red;
+  background-color: rgb(181, 31, 31);
 }
 
 .transform-small-square-1 {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background-color: white;
 }
 
 .transform-small-square-2 {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   background-color: white;
-  transform: translate(50px, 0px);
+  transform: translate(40px, 0px);
 }
 
 .transform-small-square-3 {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
   background-color: white;
   transform: translate(0px, 0px);
 }
 
 .transform-small-square-4 {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   background-color: white;
-  transform: translate(-50px, -100px);
+  transform: translate(-40px, -80px);
 }
 
 .transform-small-square-5 {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   background-color: white;
-  transform: translate(0px, -200px);
+  transform: translate(0px, -160px);
 }
