@@ -23,7 +23,8 @@ button {
 img {
   width: 500px;
   height: 300px;
-  margin: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 #image-container {
