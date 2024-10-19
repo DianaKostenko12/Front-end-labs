@@ -1,0 +1,39 @@
+.highlight-color {
+  background-color: rgb(124, 39, 118);
+  color: #fdb436;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.deletable-img {
+  overflow: hidden;
+}
+
+button {
+  padding: 8px 10px;
+  color: #541a1a;
+  background-color: #dbbeae;
+  border-radius: 10px;
+  margin: 6px;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+  margin: 5px;
+}
+
+#image-container {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+a {
+  overflow: hidden;
+}
