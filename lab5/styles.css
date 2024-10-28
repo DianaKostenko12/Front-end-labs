@@ -1,0 +1,99 @@
+.error {
+  border: 2px solid red;
+}
+.valid {
+  border: 2px solid green;
+}
+
+.forms {
+  display: flex;
+  gap: 50px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formToFill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: plum;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 45px;
+}
+
+input {
+  padding: 5px 7px;
+  font-size: 14px;
+  border: 2px solid #f4ba3d;
+  border-radius: 8px;
+  outline: none;
+}
+
+button {
+  background-color: white;
+  color: #0e0d0c;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 2px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#result {
+  display: flex;
+  flex-direction: column;
+  background-color: plum;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#result p {
+  background-color: white;
+  padding: 5px 7px;
+  font-size: 16px;
+  border: 2px solid;
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.tasks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#tableToChange {
+  margin-top: 3em;
+  table-layout: auto;
+  border-collapse: collapse;
+  width: 400px;
+  height: 400px;
+}
+
+td {
+  border: 2px solid black;
+  height: 15px;
+  width: 15px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#palette {
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+  width: 400px;
+}
+
+.chooseColor {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bolder;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Костенко Д.К. ІК-21 Варіант27</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="tasks">
+      <div class="task1">
+        <div class="forms">
+          <div class="formToFill">
+            <h2>Форма для заповнення</h2>
+            <form id="myForm">
+              <label for="fullName">ПІБ</label>
+              <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                required
+              /><br /><br />
+
+              <label for="group">Група</label>
+              <input type="text" id="group" name="group" required /><br /><br />
+
+              <label for="id-card">ID-card</label>
+              <input
+                type="text"
+                id="id-card"
+                name="id-card"
+                required
+              /><br /><br />
+
+              <label for="dateOfBirth">Дата народження</label>
+              <input
+                type="text"
+                id="dateOfBirth"
+                name="dateOfBirth"
+                required
+              /><br /><br />
+
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+              /><br /><br />
+
+              <button type="submit">Підтвердити</button>
+            </form>
+          </div>
+
+          <div id="enteredDataForm"></div>
+        </div>
+      </div>
+      <div class="task2">
+        <p class="chooseColor">Оберіть колір</p>
+        <input type="color" id="palette" value="#B2E6B2" />
+        <table id="tableToChange"></table>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
