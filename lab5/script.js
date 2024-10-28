@@ -130,8 +130,6 @@ function changeColorByUnhover(e) {
   }
 }
 
-let isDoubleClick = false;
-
 function changeColorByClick(e) {
   if (e.srcElement.innerHTML !== variantNumber) {
     return;
