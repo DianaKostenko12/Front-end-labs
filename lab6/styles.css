@@ -1,0 +1,38 @@
+body {
+  background-color: bisque;
+}
+
+#personInfo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-center {
+  text-align: center;
+  margin: 10px;
+}
+
+#add-button {
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ea9584;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  min-height: 300px;
+  width: 290px;
+  margin: 20px;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
