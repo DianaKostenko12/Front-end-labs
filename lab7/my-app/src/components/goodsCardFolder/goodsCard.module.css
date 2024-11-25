@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  border: 2px solid rgb(99, 74, 27);
+  border-radius: 10px;
+  width: 420px;
+  height: 470px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff8e6;
+}
+
+.imageContainer {
+  width: 350px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cardText {
+  text-align: center;
+  color: #4d2f14;
+  margin-top: 10px;
+}

@@ -1,0 +1,36 @@
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  padding: 8px 10px;
+  color: #541a1a;
+  background-color: #dbbeae;
+  border-radius: 10px;
+  margin: 6px;
+}
+
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.mainImg {
+  width: 500px;
+  height: 300px;
+  margin: 2px;
+}
+
+.deletableImg {
+  overflow: hidden;
+}
+
+.addedImg {
+  width: 500px;
+  height: 300px;
+  margin: 2px;
+}
