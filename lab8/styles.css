@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #f7f7f7;
+  padding: 10px 20px;
+}
+
+.baner {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  background-color: rgb(243, 241, 241);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff6600;
+  padding: 10px 20px;
+}
+
+.logo {
+  margin: 10px;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+}
+
+.contact-info-item {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.hero-section {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-slider {
+  position: relative;
+  overflow: hidden;
+  height: 700px;
+}
+
+.hero-slider img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-slider h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.hero-slider h1 span {
+  color: #ff6600;
+}

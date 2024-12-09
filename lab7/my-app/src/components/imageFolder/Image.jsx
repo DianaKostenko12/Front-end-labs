@@ -37,7 +37,7 @@ function Image() {
         <a href="https://kiyavia.com/cities/kyiv">
           <img
             className={`${styles.mainImg} main-img`}
-            src="/Kyiv.jpg"
+            src="Kyiv.jpg"
             alt="Зображення"
           />
         </a>
